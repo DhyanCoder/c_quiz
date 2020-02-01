@@ -1,5 +1,6 @@
 
 #include "selector.h"
+#include <stdlib.h>
 #include<time.h>
 #define TRUE  1
 #define FALSE 0
@@ -16,7 +17,7 @@ int select(int len, int last, int arr[])
     int done = FALSE;
     srand(time(0));
     do {
-        generated_num = (rand()%(last-1+1)) + 1;    
+        generated_num = (rand()%last) + 1;    
         for (; i < len; i++)
             if (generated_num == arr[i]) break;
         if (i == len) done = TRUE;
