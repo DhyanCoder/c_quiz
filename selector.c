@@ -1,13 +1,23 @@
-#include "filehander.c";
+
+#include "selector.h"
+#define TRUE  1
+#define FALSE 0
 
 /*
-Selects and prints the question and return answer as int
-97 for option a
-98 for option b
-99 for option c
-100 for option d
+  Returns an random int in range [1, last]
+  which are not part of arr
 */
-
-int select() {
-    return 0; // for now
+int select(int len, int last, int arr[])
+{
+    int generated_num = -1;
+    int i = 0;
+    int done = FALSE;
+    do {
+        // TODO: RANDOM NUMBER GENERATOR
+        
+        for (; i < len; i++)
+            if (generated_num == arr[i]) break;
+        if (i == len) done = TRUE;
+    } while(!done);
+    return generated_num;
 }

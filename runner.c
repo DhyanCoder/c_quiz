@@ -1,12 +1,9 @@
-/*
-Controls all functionalities of this software.
-*/
-
 #include <stdio.h>
-#include "filehander.c";
-#include "selector.c";
+#include "filehandler.h"
+#include "selector.h"
 
-int main() {
-
+int main()
+{
+    //TODO: A LOT TO DO
     return 0;
 }
