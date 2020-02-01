@@ -5,11 +5,11 @@
 int main()
 {
     int c, on = 0, q_num[20], len_q = 0;
-    int num_of_q = 0, ask_this = 0, answer = 0; // FIXME: MODIFY THIS AFTER ADDING QUESTIONS
+    int num_of_q = 60, ask_this = 0, answer = 0; // FIXME: MODIFY THIS AFTER ADDING QUESTIONS
     int score = 0;
-    printf("\t\tWELCOME\n");
+    printf("\t\t#WISDOM,Check your c knowldege\n");
     do {
-    printf("press (s) to start game or (q) to quit: ");
+    printf("Press (s) to start game or (q) to quit: ");
     c = getchar();
     switch(c) {
         case 's':
@@ -18,7 +18,7 @@ int main()
         case 'q':
             exit(0);
         default:
-            printf("Invalid command");
+            printf("Command ni de pa rha hai bhai? khel payega?");
     }
     } while (!on);
     while (c != 'q')
@@ -28,9 +28,9 @@ int main()
         c = getchar();
         if (answer == c) {
             printf("Well done!\n");
-            score += 10 // FIXME:
+            score += 10// no need to changeFIXME:
         } else {
-            printf("Wrong answer\nYour total score is %d", score);
+            printf("Tumse na ho payega beta\nYour total score is %d", score);
         }
         printf("\n\n");
     }
