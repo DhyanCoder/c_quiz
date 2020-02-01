@@ -1,6 +1,425 @@
 ----
-___100 Is C compiled Language?
-    a) Yes
-    b) No
-    ___a
+
+___1. Who is father of C Language?
+A. Bjarne Stroustrup
+B. Dennis Ritchie
+C. James A. Gosling
+D. Dr. E.F. Codd
+___B
+___2. C Language developed at ?
+A. AT &amp; T’s Bell Laboratories of USA in 1972
+B. AT &amp; T’s Bell Laboratories of USA in 1970
+C. Sun Microsystems in 1973
+D. Cambridge University in 1972
+___A
+___3. For 16-bit compiler allowable range for integer constants is ?
+A. -3.4e38 to 3.4e38
+B. -32767 to 32768
+C. -32768 to 32767
+D. -32668 to 32667
+___C
+___C programs are converted into machine language with the help of ?
+A. An Editor
+B. A compiler
+C. An operating system
+D. None of the above
+___B
+___5. A C variable cannot start with
+A. An alphabet
+B. A number
+C. A special symbol other than underscore
+D. both (b) and (c)
+___D
+___6. Which of the following is allowed in a C Arithmetic instruction
+A. []
+B. {}
+C. ()
+D. None of the above
+___C
+___7. Which of the following shows the correct hierarchy of arithmetic operations in C
+A. / + * –
+B. * – / +
+C. + – / *
+D. * / + –
+___D
+___8. What is an array?
+A. An array is a collection of variables that are of the dissimilar data type.
+B. An array is a collection of variables that are of the same data type.
+C. An array is not a collection of variables that are of the same data type.
+D. None of the above.
+___B
+___9. What is right way to Initialization array?
+A. int num[6] = { 2, 4, 12, 5, 45, 5 } ;
+B. int n{} = { 2, 4, 12, 5, 45, 5 } ;
+C. int n{6} = { 2, 4, 12 } ;
+D. int n(6) = { 2, 4, 12, 5, 45, 5 } ;
+___A
+___10. An array elements are always stored in  memory locations.
+A. Sequential
+B. Random
+C. Sequential and Random
+D. None of the above
+___A
+___11. What is the right way to access value of structure variable book{ price, page }?
+A. printf(“%d%d”, book.price);
+B. printf(“%d%d”, price.book, page.book);
+C. printf(“%d%d”, price::book, page::book);
+D. printf(“%d%d”, price-&gt;book, page-&gt;book);
+___A
+___12. perror( ) function used to ?
+A. Work same as printf()
+B. prints the error message specified by the compiler
+C. prints the garbage value assigned by the compiler
+D. None of the above
+___B
+___13. Bitwise operators can operate upon?
+A. double and chars
+B. floats and doubles
+C. ints and floats
+D. ints and chars
+___D
+___14. What is C Tokens?
+A. The smallest individual units of c program
+B. The basic element recognized by the compiler
+C. The largest individual units of program
+D. A &amp; B Both
+___D
+___15. What is Keywords?
+A. Keywords have some predefine meanings and these meanings can be changed.
+B. Keywords have some unknown meanings and these meanings cannot be changed.
+C. Keywords have some predefine meanings and these meanings cannot be changed.
+D. None of the above
+___C
+___16. What is constant?
+A. Constants have fixed values that do not change during the execution of a program
+B. Constants have fixed values that change during the execution of a program
+C. Constants have unknown values that may be change during the execution of a program
+D. None of the above
+___A
+___17. Which is the right way to declare constant in C?
+A. int constant var =10;
+B. int const var = 10;
+C. const int var = 10;
+D. B &amp; C Both
+___D
+___18. Which operators are known as Ternary Operator?
+A. ::, ?
+B. ?, :
+C. ?, ;;
+D. None of the avobe
+___B
+___19. In switch statement, each case instance value must be?
+A. Constant
+B. Variable
+C. Special Symbol
+D. None of the avobe
+___A
+___20. What is the work of break keyword?
+A. Halt execution of program
+B. Restart execution of program
+C. Exit from loop or switch statement
+D. None of the avobe
+___C
+___21. What is function?
+A. Function is a block of statements that perform some specific task.
+B. Function is the fundamental modular unit. A function is usually designed to perform a specific task.
+C. Function is a block of code that performs a specific task. It has a name and it is reusable
+D. All the above
+___D
+___22. Which one of the following sentences is true ?
+A. The body of a while loop is executed at least once.
+B. The body of a do … while loop is executed at least once.
+C. The body of a do … while loop is executed zero or more times.
+D. A for loop can never be used in place of a while loop.
+___B
+___23. A binary tree with 27 nodes null branches.
+A. 54
+B. 27
+C. 26
+D. None of the above
+___D
+___24. Which one of the following is not a linear data structure?
+A. Array
+B. Binary Tree
+C. Queue
+D. Stack
+___B
+___25. Recursive functions are executed in a?
+A. First In First Out Order
+B. Load Balancing
+C. Parallel Fashion
+D. Last In First Out Order
+___D
+___26. Queue is a list type
+A. LIFO
+B. LILO
+C. FILO
+D. FIFO
+___D
+___27. The statement print f (“%d”, 10 ? 0 ? 5 : 1 : 12); will print?
+A. 10
+B. 0
+C. 12
+D. 1
+___D
+___28. To represent hierarchical relationship between elements, which data structure is suitable?
+A. Priority
+B. Tree
+C. Dqueue
+D. All of the above
+___B
+___29. Which of the following data structure is linear type?
+A. Strings
+B. Queue
+C. Lists
+D. All of the above
+___D
+___30. The statement printf(“%c”, 100); will print?
+A. prints 100
+B. print garbage
+C. prints ASCII equivalent of 100
+D. None of the above
+___C
+___31. The memory allocation function modifies the previous allocated space.
+A. calloc
+B. free
+C. malloc
+D. realloc
+___D
+___32. Number of binary trees formed with 5 nodes are
+A. 30
+B. 36
+C. 108
+D. 42
+___D
+33. The “C” language is
+A. Context free language
+B. Context sensitive language
+C. Regular language
+D. None of the above
+___A
+___34. The worst case time complexity of AVL tree is better in comparison to binary search tree for
+A. Search and Insert Operations
+B. Search and Delete Operations
+C. Insert and Delete Operations
+D. Search, Insert and Delete Operations
+___D
+___35. In which tree, for every node the height of its left subtree and right subtree differ almost by one?
+A. Binary search tree
+B. AVL tree
+C. Threaded Binary Tree
+D. Complete Binary Tree
+___B
+___36. C is Language?
+A. Low Level
+B. High Level
+C. Assembly Level
+D. Machine Level
+___B
+___37. The Default Parameter Passing Mechanism is called as
+A. Call by Value
+B. Call by Reference
+C. Call by Address
+D. Call by Name
+___A
+___38. What is Dequeue?
+A. Elements can be added from front
+B. Elements can be added to or removed from either the front or rear
+C. Elements can be added from rear
+D. None of the above
+___B
+___39. In which linked list last node address is null?
+A. Doubly linked list
+B. Circular list
+C. Singly linked list
+D. None of the above
+___C
+___40. Which is the correct syntax to declare constant pointer?
+A. int *const constPtr;
+B. *int constant constPtr;
+C. const int *constPtr;
+D. A and C both
+___D
+___41. What will be the output of the following arithmetic expression ?
+5+3*2%10-8*6
+a) -37
+b) -42
+c) -32
+d) -28
+___a
+___42. What will be the output of the following statement ?
+int a=10; printf(“%d &amp;i”,a,10);
+a) error
+b) 10
+c) 10 10
+d) none of these
+___d
+___43. What will be the output of the following statement ?
+printf(“%X%x%ci%x”,11,10,’s’,12);
+a) error
+b) basc
+c) Bas94c
+d) none of these
+___b
+___44. What will be the output of the following statements ?
+int a = 4, b = 7,c; c = a = = b; printf(“%i”,c);
+a) 0
+b) error
+c) 1
+d) garbage value
+___a
+___45. What will be the output of the following statements ?
+int a = 5, b = 2, c = 10, i = a&gt;b
+void main()
+{ printf(“hello”); main(); }
+a) 1
+b) 2
+c) infinite number of times
+d) none of these
+___c
+___46. What will be output if you will compile and execute the following c code?
+struct marks{
+int p:3;
+int c:3;
+int m:2;
+};
+void main(){
+struct marks s={2,-6,5};
+printf(“%d %d %d”,s.p,s.c,s.m);
+}
+(a) 2 -6 5
+(b) 2 -6 1
+(c) 2 2 1
+(d) Compiler error
+(e) None of these
+___c
+___47. What will be the output of the following statements ?
+int x[4] = {1,2,3}; printf(“%d %d %D”,x[3],x[2],x[1]);
+a) 03%D
+b) 000
+c) 032
+d) 321
+___c
+___48. What will be the output of the following statement ?
+printf( 3 + “goodbye”);
+a) goodbye
+b) odbye
+c) bye
+d) dbye
+___d
+___49. What will be the output of the following statements ?
+long int a = scanf(“%ld%ld”,&amp;a,&amp;a); printf(“%ld”,a);
+a) error
+b) garbage value
+c) 0
+d) 2
+___b
+___50. What will be the output of the following program ?
+#include
+void main()
+{ int a = 2;
+switch(a)
+{ case 1:
+printf(“goodbye”); break;
+case 2:
+continue;
+case 3:
+printf(“bye”);
+}
+}
+a) error
+b) goodbye
+c) bye
+d) byegoodbye
+___a
+___51. What will be the output of the following statements ?
+int i = 1,j; j=i— -2; printf(“%d”,j);
+a) error
+b) 2
+c) 3
+d) -3
+___c
+___52. What will be the output of following program ?
+#include
+main()
+{
+int x,y = 10;
+x = y * NULL;
+printf(“%d”,x);
+}
+a) error
+b) 0
+c) 10
+d) garbage value
+___b
+___53. What will be the output of following statements ?
+char x[ ] = “hello hi”; printf(“%d%d”,sizeof(*x),sizeof(x));
+a) 88
+b) 18
+c) 29
+d) 19
+___d
+___54. What will be the output of the following statements ?
+int a=5,b=6,c=9,d; d=(ac?1:2):(c&gt;b?6:8)); printf(“%d”,d);
+a) 1
+b) 2
+c) 6
+d) Error
+___d
+___55. What will be the output of the following statements ?
+int i = 3;
+printf(“%d%d”,i,i++);
+a) 34
+b) 43
+c) 44
+d) 33
+___b
+___56. What will be the output of the following program ?
+#include
+void main()
+{
+int a = 36, b = 9;
+printf(“%d”,a&gt;&gt;a/b-2);
+}
+a) 9
+b) 7
+c) 5
+d) none of these
+___a
+___57. int testarray[3][2][2] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+What value does testarray[2][1][0] in the sample code above contain?
+a) 11
+b) 7
+c) 5
+d) 9
+___a
+___58. what is pointer?
+a) constant
+b)variable
+c)special variable
+d)operation
+___c
+___59.What is the output?
+a) XAM is printed
+b) exam is printed
+c) Compiler Error
+d) Nothing is printed
+___d
+___60.guess the output
+#include <stdio.h>
+main()
+{ 
+ char *p ="Sanfoundry C_-TEST";
+p[0]='a';
+p[1]='b';
+printf("%s",p);
+}
+a).abnfoundry C-Test
+b).Sanfoundry C-Test
+c).Compile time error
+d).Run time error
+___c
+
+
+
 ----
