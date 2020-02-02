@@ -40,7 +40,7 @@ int handle(int number)
                     continue;
             }
             if (num == number) {
-                printf("Found number\n\n\n");
+                // printf("Found number\n\n\n");
                 break;
             }
             else {

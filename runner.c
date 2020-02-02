@@ -30,6 +30,7 @@ int main()
     do {
     printf("Press (s) to start game or (q) to quit: ");
     c = getchar();
+    getchar();
     switch(c) {
         case 's':
             on = 1;
@@ -49,10 +50,10 @@ int main()
         q_num[len_q++] = ask_this;
 
         answer = handle(ask_this);
-
         printf("Enter your answer |-> ");
         c = getchar();
         getchar();
+        // printf("answer = %c\n", c);
         
         if (c == answer || tolower(c) == answer) {
             printf( "\t\t---------------\n"
@@ -86,10 +87,10 @@ int main()
             );
         }
     }
-    printf( "--------------------------"
-            "----------SCORE-----------"
-            "--------------------------"
-            "-------->%4d<---------"
+    printf( "--------------------------\n"
+            "----------SCORE-----------\n"
+            "--------------------------\n"
+            "-------->%4d<---------\n"
     , score);
     return 0;
 }
