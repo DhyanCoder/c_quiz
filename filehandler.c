@@ -49,7 +49,7 @@ int handle(int number)
             continue;
         }
     }
-    
+
     if (c == EOF) {
         printf("cannot fine question");
         fclose(fp);
@@ -66,6 +66,10 @@ int handle(int number)
                 case 'b':
                 case 'c':
                 case 'd':
+                case 'A':
+                case 'B':
+                case 'C':
+                case 'D':
                     storage = c;
                     on = 1;
                     break;
@@ -84,6 +88,6 @@ int handle(int number)
     }
     
     fclose(fp);
-    return storage;
+    return tolower(storage);
 
 }

@@ -34,7 +34,7 @@ int main()
         c = getchar();
         getchar();
         
-        if (c == answer || tolower(c) == answer || c == toupper(answer)) {
+        if (c == answer || tolower(c) == answer) {
             printf("Well done!\n");
             score += 10; // no need to changeFIXME:
         } else {

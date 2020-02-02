@@ -1,4 +1,4 @@
-----
+﻿----
 
 ___1 Who is father of C Language?
 A. Bjarne Stroustrup
@@ -7,8 +7,8 @@ C. James A. Gosling
 D. Dr. E.F. Codd
 ___B
 ___2 C Language developed at ?
-A. AT &amp; T’s Bell Laboratories of USA in 1972
-B. AT &amp; T’s Bell Laboratories of USA in 1970
+A. AT &amp; Tâs Bell Laboratories of USA in 1972
+B. AT &amp; Tâs Bell Laboratories of USA in 1970
 C. Sun Microsystems in 1973
 D. Cambridge University in 1972
 ___A
@@ -37,10 +37,10 @@ C. ()
 D. None of the above
 ___C
 ___7 Which of the following shows the correct hierarchy of arithmetic operations in C
-A. / + * –
-B. * – / +
-C. + – / *
-D. * / + –
+A. / + * â
+B. * â / +
+C. + â / *
+D. * / + â
 ___D
 ___8 What is an array?
 A. An array is a collection of variables that are of the dissimilar data type.
@@ -61,10 +61,10 @@ C. Sequential and Random
 D. None of the above
 ___A
 ___11 What is the right way to access value of structure variable book{ price, page }?
-A. printf(“%d%d”, book.price);
-B. printf(“%d%d”, price.book, page.book);
-C. printf(“%d%d”, price::book, page::book);
-D. printf(“%d%d”, price-&gt;book, page-&gt;book);
+A. printf(â%d%dâ, book.price);
+B. printf(â%d%dâ, price.book, page.book);
+C. printf(â%d%dâ, price::book, page::book);
+D. printf(â%d%dâ, price-&gt;book, page-&gt;book);
 ___A
 ___12 perror( ) function used to ?
 A. Work same as printf()
@@ -128,8 +128,8 @@ D. All the above
 ___D
 ___22 Which one of the following sentences is true ?
 A. The body of a while loop is executed at least once.
-B. The body of a do … while loop is executed at least once.
-C. The body of a do … while loop is executed zero or more times.
+B. The body of a do â¦ while loop is executed at least once.
+C. The body of a do â¦ while loop is executed zero or more times.
 D. A for loop can never be used in place of a while loop.
 ___B
 ___23 A binary tree with 27 nodes null branches.
@@ -156,7 +156,7 @@ B. LILO
 C. FILO
 D. FIFO
 ___D
-___27 The statement printf("%d", 10 ? 0 ? 5 : 1 : 12); will print?
+___27 The statement print f (â%dâ, 10 ? 0 ? 5 : 1 : 12); will print?
 A. 10
 B. 0
 C. 12
@@ -174,7 +174,7 @@ B. Queue
 C. Lists
 D. All of the above
 ___D
-___30 The statement printf(“%c”, 100); will print?
+___30 The statement printf(â%câ, 100); will print?
 A. prints 100
 B. print garbage
 C. prints ASCII equivalent of 100
@@ -192,7 +192,7 @@ B. 36
 C. 108
 D. 42
 ___D
-___33 The “C” language is
+___33 The âCâ language is
 A. Context free language
 B. Context sensitive language
 C. Regular language
@@ -248,21 +248,21 @@ c) -32
 d) -28
 ___a
 ___42 What will be the output of the following statement ?
-int a=10; printf(“%d &amp;i”,a,10);
+int a=10; printf(â%d &amp;iâ,a,10);
 a) error
 b) 10
 c) 10 10
 d) none of these
 ___d
 ___43 What will be the output of the following statement ?
-printf(“%X%x%ci%x”,11,10,’s’,12);
+printf(â%X%x%ci%xâ,11,10,âsâ,12);
 a) error
 b) basc
 c) Bas94c
 d) none of these
 ___b
 ___44 What will be the output of the following statements ?
-int a = 4, b = 7,c; c = a = = b; printf(“%i”,c);
+int a = 4, b = 7,c; c = a = = b; printf(â%iâ,c);
 a) 0
 b) error
 c) 1
@@ -271,7 +271,7 @@ ___a
 ___45 What will be the output of the following statements ?
 int a = 5, b = 2, c = 10, i = a&gt;b
 void main()
-{ printf(“hello”); main(); }
+{ printf(âhelloâ); main(); }
 a) 1
 b) 2
 c) infinite number of times
@@ -285,7 +285,7 @@ int m:2;
 };
 void main(){
 struct marks s={2,-6,5};
-printf(“%d %d %d”,s.p,s.c,s.m);
+printf(â%d %d %dâ,s.p,s.c,s.m);
 }
 (a) 2 -6 5
 (b) 2 -6 1
@@ -294,21 +294,21 @@ printf(“%d %d %d”,s.p,s.c,s.m);
 (e) None of these
 ___c
 ___47 What will be the output of the following statements ?
-int x[4] = {1,2,3}; printf(“%d %d %D”,x[3],x[2],x[1]);
+int x[4] = {1,2,3}; printf(â%d %d %Dâ,x[3],x[2],x[1]);
 a) 03%D
 b) 000
 c) 032
 d) 321
 ___c
 ___48 What will be the output of the following statement ?
-printf( 3 + “goodbye”);
+printf( 3 + âgoodbyeâ);
 a) goodbye
 b) odbye
 c) bye
 d) dbye
 ___d
 ___49 What will be the output of the following statements ?
-long int a = scanf(“%ld%ld”,&amp;a,&amp;a); printf(“%ld”,a);
+long int a = scanf(â%ld%ldâ,&amp;a,&amp;a); printf(â%ldâ,a);
 a) error
 b) garbage value
 c) 0
@@ -320,11 +320,11 @@ void main()
 { int a = 2;
 switch(a)
 { case 1:
-printf(“goodbye”); break;
+printf(âgoodbyeâ); break;
 case 2:
 continue;
 case 3:
-printf(“bye”);
+printf(âbyeâ);
 }
 }
 a) error
@@ -333,7 +333,7 @@ c) bye
 d) byegoodbye
 ___a
 ___51 What will be the output of the following statements ?
-int i = 1,j; j=i— -2; printf(“%d”,j);
+int i = 1,j; j=iâ -2; printf(â%dâ,j);
 a) error
 b) 2
 c) 3
@@ -345,7 +345,7 @@ main()
 {
 int x,y = 10;
 x = y * NULL;
-printf(“%d”,x);
+printf(â%dâ,x);
 }
 a) error
 b) 0
@@ -353,14 +353,14 @@ c) 10
 d) garbage value
 ___b
 ___53 What will be the output of following statements ?
-char x[ ] = “hello hi”; printf(“%d%d”,sizeof(*x),sizeof(x));
+char x[ ] = âhello hiâ; printf(â%d%dâ,sizeof(*x),sizeof(x));
 a) 88
 b) 18
 c) 29
 d) 19
 ___d
 ___54 What will be the output of the following statements ?
-int a=5,b=6,c=9,d; d=(ac?1:2):(c&gt;b?6:8)); printf(“%d”,d);
+int a=5,b=6,c=9,d; d=(ac?1:2):(c&gt;b?6:8)); printf(â%dâ,d);
 a) 1
 b) 2
 c) 6
@@ -368,7 +368,7 @@ d) Error
 ___d
 ___55 What will be the output of the following statements ?
 int i = 3;
-printf(“%d%d”,i,i++);
+printf(â%d%dâ,i,i++);
 a) 34
 b) 43
 c) 44
@@ -379,7 +379,7 @@ ___56 What will be the output of the following program ?
 void main()
 {
 int a = 36, b = 9;
-printf(“%d”,a&gt;&gt;a/b-2);
+printf(â%dâ,a&gt;&gt;a/b-2);
 }
 a) 9
 b) 7
