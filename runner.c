@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
 #include "filehandler.h"
 #include "selector.h"
 
@@ -18,19 +20,26 @@ int main()
         case 'q':
             exit(0);
         default:
-            printf("Command ni de pa rha hai bhai? khel payega?");
+            printf("Command ni de pa rha hai bhai? khel payega? \n");
     }
     } while (!on);
     while (c != 'q')
     {
         ask_this = select(len_q, num_of_q, q_num);
+        q_num[len_q++] = ask_this;
+
         answer = handle(ask_this);
+
+        printf("Enter your answer : ");
         c = getchar();
-        if (answer == c) {
+        getchar();
+        
+        if (c == answer || tolower(c) == answer || c == toupper(answer)) {
             printf("Well done!\n");
-            score += 10// no need to changeFIXME:
+            score += 10; // no need to changeFIXME:
         } else {
-            printf("Tumse na ho payega beta\nYour total score is %d", score);
+            printf("\n\n\nTumse na ho payega beta\nYour total score is %d", score);
+            exit(0);
         }
         printf("\n\n");
     }
