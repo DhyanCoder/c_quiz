@@ -1,6 +1,9 @@
+
 #include "filehandler.h"
+#include "printR.h"
 #include <stdio.h>
 #include <ctype.h>
+
 /*
     prints the question according to argument number
     and returns answer as int
@@ -9,15 +12,17 @@
     99 for c
     100 for d
 */
-int anc = 10000; // FIXME:
+char temp_storage[1500];
+int top_ts = 0;
 
 int handle(int number)
 {
+    top_ts = 0;
         FILE *fp;
-    fp = fopen("questions.txt", "r");
+    fp = fopen("questionsASCII.txt", "r");
     int c, count = 0;
     int storage = 0, on = 0, num = 0;
-    printf("Asked question is -> %d", number); // FIXME:
+    
     while ((c = fgetc(fp)) != EOF) {
         if (count == 3) {
             switch(c) {
@@ -83,10 +88,12 @@ int handle(int number)
             count++;
             continue;
         }
-        if (!count) putchar(c);
+        if (!count) temp_storage[top_ts++] = (char) c; // FIXME:
         count = 0;
     }
-    
+
+    // printf("\t\t%s", temp_storage);
+    printr(temp_storage, number);
     fclose(fp);
     return tolower(storage);
 
